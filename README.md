@@ -10,7 +10,9 @@ can track total times for functions which run repeatedly, average times, maximum
 This information is then written to a .csv file which you can specify.
 
 Log::startProcess('functionOne');
+
 functionOne();
+
 Log::stopProcess('functionOne');
 
 To see all total, max, min, and average times you can use this function:
